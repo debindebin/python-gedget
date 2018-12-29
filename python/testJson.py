@@ -4,7 +4,7 @@
 import redis
 import json
 
-r = redis.Redis(host='112.126.82.150', port=6381, db=0)
+r = redis.Redis(host='113.127.83.151', port=6385, db=0, password='password')
 # r1 = redis.Redis(host='112.126.82.150', port=6379, db=0, password='YiYi1011QAZ')
 # obj1 = {'id':18, 'title':'瑜伽'}
 # obj2 = {'id':26, 'title':'职场顾问'}
