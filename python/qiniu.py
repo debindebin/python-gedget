@@ -8,8 +8,8 @@ import datetime
 import time
 import os
 
-access_key = '68-wB4MzU0HYKh0LlNdhQsptearKELGLVMZ66jZO'
-secret_key = 'H5vDtdpJyQYPPpHSAiouB5CceQ0_oS14caLGL8Yb'
+access_key = ''
+secret_key = ''
 
 q = Auth(access_key, secret_key)
 
