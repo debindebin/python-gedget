@@ -5,9 +5,6 @@ import urllib
 import urllib2
 
 url = "http://127.0.0.1:8080/v1/res/list"
-# url = "http://112.126.82.150:8801/yuenr/coins/coinstemplate/list"
-# url = "http://182.92.114.178:8804/yuenr/category/getLabelSkill"
-# url = "http://101.200.77.126:8804/yuenr/wx/sendTemplate"
 # url ="https://catfront.dianping.com/api/batch";
 # data='{"first":{"value":"您关注的精诚心灵工作室老师有新的课程了！n","color":"#ED694E"},"keyword1":{"value":"爱你所爱，行你所行，听从你心，无问西东","color":""},"keyword2":{"value":"2018-03-05 19:30:00","color":""},"keyword3":{"value":"学部","color":""},"remark":{"value":"n回复TD2退订","color":"#a6a6a6"}}'
 # testdata = {"v":1,"sdk":"1.6.3"}
