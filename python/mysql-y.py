@@ -3,7 +3,7 @@
 import pymysql
  
 # 打开数据库连接
-db = pymysql.connect(host="rdsm7f0883mxww26597zo.mysql.rds.aliyuncs.com",port =3307,user= "xuebuapp", password="YiYi2017@WSX", database="iyuenr", charset='utf8' )
+db = pymysql.connect(host="localhost",port =3307,user= "username", password="password", database="dbname", charset='utf8' )
  
 # 使用cursor()方法获取操作游标 
 cursor = db.cursor()
