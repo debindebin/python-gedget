@@ -5,8 +5,8 @@ import hashlib
 import os, sys
 import redis
 
-# r = redis.Redis(host='112.126.82.150', port=6381, db=0, password='YiYidev3319')
-r = redis.Redis(host='112.126.82.150', port=6379, db=0, password='YiYi1011QAZ')
+# r = redis.Redis(host='113.127.83.151', port=6383, db=0, password='password')
+r = redis.Redis(host='113.127.83.151', port=6385, db=0, password='password')
 # list1 = [152222,152362,167379,167716,168072,176552,178556,178568,178575,178628,178670,178716,178884,178897,184289]
 # list1 = list(range(50))
 # for i in list1:
