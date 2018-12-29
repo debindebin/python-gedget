@@ -6,7 +6,7 @@ import os, sys
 import redis
 
 
-r = redis.Redis(host='112.126.82.150', port=6379, db=0, password='YiYi1011QAZ')
+r = redis.Redis(host='113.127.83.151', port=6385, db=0, password='password')
 
 list1 = r.lrange("forbidenIp",0,-1);
 for ip in list1:
