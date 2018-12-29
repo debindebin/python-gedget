@@ -3,7 +3,7 @@
 
 import redis
 
-r = redis.Redis(host='112.126.82.150', port=6381, db=0)
+r = redis.Redis(host='113.127.83.151', port=6385, db=0, password='password')
 #f = open("./orderNum.txt", 'r')
 #lines = f.readlines()
 #for line in lines:
