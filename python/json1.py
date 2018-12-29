@@ -2,7 +2,7 @@ import json
 import os, sys
 import redis
 
-r = redis.Redis(host='112.126.82.150', port=6381, db=0, password='YiYidev3319')
+r = redis.Redis(host='113.127.83.151', port=6385, db=0, password='password')
 
 def loadFont(filename):
 	f = open(filename, encoding='utf-8')  #设置以utf-8解码模式读取文件，encoding参数必须设置，否则默认以gbk模式读取文件，当文件中包含中文时，会报错
